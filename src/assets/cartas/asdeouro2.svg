@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!-- Creator: CorelDRAW 2018 (64 Bit Versão de avaliação) -->
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="2480px" height="3507px" version="1.1" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
+viewBox="0 0 2480 3507.43"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+ <defs>
+  <font id="FontID0" horiz-adv-x="719" font-variant="normal" class="str1" style="fill-rule:nonzero" font-weight="400">
+	<font-face 
+		font-family="Arial Rounded MT Bold">
+		<font-face-src>
+			<font-face-name name="Arial Rounded MT Bold"/>
+		</font-face-src>
+	</font-face>
+   <missing-glyph><path d="M0 0z"/></missing-glyph>
+   <glyph unicode="A" horiz-adv-x="719" d="M536.166 81.167l-34.1673 89.8325 -291 0 -34.1659 -91.6665c-13.3341,-35.8326 -24.667,-59.9993 -34.1673,-72.5001 -9.33304,-12.4993 -24.8328,-18.8333 -46.3321,-18.8333 -18.1672,0 -34.3345,6.66707 -48.3334,19.9998 -14.0003,13.3341 -21.0004,28.5009 -21.0004,45.3344 0,9.83336 1.66677,19.9998 4.83306,30.3335 3.33353,10.4995 8.6669,24.8328 16.1674,43.4989l182.999 464.666c5.33337,13.3327 11.5001,29.3328 18.8333,47.9989 7.33321,18.8333 15.1667,34.3331 23.5006,46.6666 8.33383,12.3335 19.1664,22.3341 32.6664,30.0004 13.5,7.66628 30.1662,11.5001 50.0002,11.5001 20.3329,0 37.1663,-3.83385 50.6663,-11.5001 13.5,-7.66628 24.3339,-17.4996 32.6664,-29.5001 8.33383,-12.0004 15.334,-25.0001 21.0004,-38.8331 5.66644,-13.833 12.9996,-32.3333 21.6665,-55.3335l187 -461.832c14.6664,-35.1665 21.9996,-60.6669 21.9996,-76.667 0,-16.499 -6.83289,-31.833 -20.6659,-45.666 -13.833,-13.833 -30.6665,-20.6673 -50.1674,-20.6673 -11.3329,0 -21.1662,1.99984 -29.3328,6.16675 -7.99935,3.99967 -14.8337,9.50029 -20.5001,16.5004 -5.4992,7.00014 -11.3329,17.8327 -17.6669,32.166 -6.49982,14.5006 -11.8332,27.3344 -16.499,38.3342zm-287 198.833l213.832 0 -107.832 294.999 -106 -294.999z"/>
+  </font>
+  <style type="text/css">
+   <![CDATA[
+    @font-face { font-family:"Arial Rounded MT Bold";font-variant:normal;font-weight:normal;src:url("#FontID0") format(svg)}
+    .str1 {stroke-width:1.08;stroke-miterlimit:22.9256}
+    .str2 {stroke:#373435;stroke-width:0.9;stroke-miterlimit:22.9256}
+    .str0 {stroke:#373435;stroke-width:17.71;stroke-miterlimit:10}
+    .fil3 {fill:#EC555B}
+    .fil0 {fill:#E6E7E8;fill-rule:nonzero}
+    .fil1 {fill:#EC555B;fill-rule:nonzero}
+    .fil2 {fill:#DA5155;fill-rule:nonzero}
+    .fnt0 {font-weight:normal;font-size:833.23px;font-family:'Arial Rounded MT Bold'}
+   ]]>
+  </style>
+ </defs>
+ <g id="Camada_x0020_1">
+  <metadata id="CorelCorpID_0Corel-Layer"/>
+  <path class="fil0 str0" d="M1730.91 2587.46l-973.88 0c-66.25,0 -119.96,-53.7 -119.96,-119.95l0 -1514.22c0,-66.25 53.71,-119.95 119.96,-119.95l973.88 0c66.25,0 119.96,53.7 119.96,119.95l0 1514.22c0,66.25 -53.71,119.95 -119.96,119.95z"/>
+  <g id="_1932434020448">
+   <polygon class="fil1" points="1265.1,2340.58 1082.99,2094.49 1265.1,1848.4 1447.2,2094.49 "/>
+   <polygon class="fil2" points="1447.2,2094.49 1265.1,1848.4 1265.1,2340.58 "/>
+  </g>
+  <text x="945.97" y="1612.88"  class="fil3 str2 fnt0">A</text>
+ </g>
+</svg>
