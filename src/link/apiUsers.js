@@ -1,5 +1,5 @@
-// const API_URL = "https://flame-api.herokuapp.com/"
-const API_URL = "http://localhost:8000/"
+const API_URL = "https://jakagame-api.herokuapp.com/"
+// const API_URL = "http://localhost:8000/"
 import axios from 'axios'
 import { async } from 'q';
 
