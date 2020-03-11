@@ -84,7 +84,10 @@
                     <p align="left">O jogo já está formado com regras claras e formato de jogo definidos, porém, este site é apenas uma plataforma de testes para o jogo. Nosso objetivo é testar para quem sabe, desenvolver um app e aprimorar o sistema para que possamos oferecer jogos online do JAKA Game. Então estamos em fase inicial ainda, por isso queremos sua opinião. Ajude-nos. O que podemos melhorar no site?</p>
                     <p align="left" style="font-size: 18pt">Opine por meio deste formulário no google drive, nos ajudará muito:</p>
                     <p align="left"><a style="font-size: 14pt; color: black" href="http://bit.ly/jakagameform" target="_blank">► O QUE PRECISA MELHORAR?</a></p>
-                    <p style="font-size: 14pt">Precisamos do seu cadastro. Nem que seja uma única vez, faça o cadastro para que possamos aprimorar o nosso jogo. É muito importante!</p>
+                    <br>
+                    <p align="left">Fique por dentro também das novidades da plataforma do jogo, pois lá iremos atualizar possíveis e futuras atualizações pro jogo.</p>
+                    <p align="left"><span style="font-size: 14pt"><a style="color: black" href="http://bit.ly/jakagameanuncios" target="_blank">► NOVIDADES</a></span></p>
+
                   </v-card-text>
                   <v-divider></v-divider>
                   <v-card-actions>
