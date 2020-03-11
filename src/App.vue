@@ -62,43 +62,28 @@
                 <v-card style="color: white" color="success" class="mt-2">
                   <v-card-title><h2>SEJA BEM-VINDO, PLAYER!</h2></v-card-title>
                   <v-card-text>
-                    <p align="left">A <span style="color: green">JAKA Game&copy;  </span>  é um jogo de baralho convencional, em fase de teste, ao qual alinha estratégia, blefe e uma pitada de sorte também. O objetivo do jogo é formar a palavra <span style="color: black">JAKA</span> com as cartas da mesa.</p>
-                    <p align="left">Você iniciará com 8 cartas, sendo 4 cartas da mão e 4 cartas da mesa.</p>
-                    <p align="left">Com as cartas da mesa, você deve formar a palavra JAKA para vencer a partida contra a Bruna (sua oponente).</p>
-                    <p align="left">Com as cartas da mão, você deve baixar as cartas <span style="color: red">J (Valete)</span>,  <span style="color: red"> A (Ás)</span> e <span style="color: red">K (Reis)</span> para a mesa.</p>
-                    <p align="left">Na sua vez de jogar, você pode comprar uma carta do monte ou pode pegar uma carta da mesa da Bruna que lhe chame a atenção. Para poder pegar uma carta dela, você deve clicar no botão <v-btn small color="error">Challenge</v-btn>, assim você vai desafiar ela. Ao clicar neste botão, você deve selecionar qual carta da mesa dela você quer ganhar, depois você vai escolher a carta da SUA MÃO para utilizar no desafio. Se sua carta for maior que a carta que ela escolher da mão dela, então, você ganha o duelo e leva a carta da mesa dela para sua mão.</p>
-                    <p align="left">Por exemplo:</p>
-                    <p align="left">Digamos que você tenha as seguintes cartas em mão:</p>
+                    <p align="left">O jogo <span style="color: green">JAKA Game&copy;  </span> (Red version) é um jogo de baralho comum ao qual alinha estratégia, blefe e uma pitada de sorte também. O objetivo do jogo é formar a palavra <span style="color: black">JAKA</span> com as cartas valetes, ás e reis, e baixá-las na mesa antes de todos os seus oponentes.</p>
+                    <p align="left">Para saber mais sobre como jogar, acesse nosso instagram, siga a gente, lá tem dicas de como jogar JAKA em grupo ou contra uma pessoa:</p>
                     <table>
                       <tr>
                         <th>
-                          <v-img class="mt-2 mb-2 pa-3 carta" :src="cartaExemplo1.image"></v-img>
+                          <v-img class="mt-2 mb-2 pa-3 icones" :src="instaSets.image"></v-img>
                         </th>
-                        <th>
-                          <v-img class="mt-2 mb-2 pa-3 carta" :src="cartaExemplo2.image"></v-img>
-                        </th>
-                        <th>
-                          <v-img class="mt-2 mb-2 pa-3 carta" :src="cartaExemplo3.image"></v-img>
-                        </th>
-                        <th>
-                          <v-img class="mt-2 mb-2 pa-3 carta" :src="cartaExemplo4.image"></v-img>
+                      </tr>
+                      <tr>
+                        <th style="color: black">
+                          @jaka.game
                         </th>
                       </tr>
                     </table>
-                    <p align="left">Se você selecionar o <span style="color: red">J (Valete) de Ouros</span> para o desafio, e a Bruna selecionar um <span style="color: red">Q (Dama) de Paus</span> por exemplo, você ganha o desafio dela e por isso, leva a carta da mesa dela que escolheu antes do duelo.</p>
-                    <p align="left">Agora, se você selecionou o <span style="color: red">J (Valete) de Ouros</span> e a Bruna escolheu um <span style="color: red">A (Ás) de Copas</span> por exemplo, você então perderá o desafio, e com isso, você apenas perde o <span style="color: red">J (Valete) de Ouros</span> usado no duelo.</p>
-                    <p align="left">Agora, se no caso vocês escolherem a mesma carta, não importará o naipe das cartas, quem foi desafiado sempre vencerá o desafiador, ou seja, no empate, ganha o player que está se defendendo do desafio.</p>
-                    <p align="left">O <span style="color: red">J (Valete) de Ouros</span> é importante para você completar o objetivo de formar a palavra JAKA antes de seu oponente. Então, em sua vez, posicione a carta J (Valete) na primeira posição das suas cartas da mesa.</p>
-                    <p align="left">E assim você deve fazer com as outras cartas <span style="color: red">A (Ás)</span> e <span style="color: red">K (Reis)</span>.</p>
-                    <p align="left">O oponente não visualiza as suas cartas, Pode ficar tranquilo, mas você também não saberá quais cartas ela tem na mão e na mesa. Mas é possível saber quais cartas da mesa ela está movimentando, para isso, basta verificar os Logs das jogadas e saberá se a Bruna está movimentando as cartas da mesa.</p>
                     <br>
-                    <p align="left">Se tiver alguma dúvida nas regras do game, você pode acessar as regras feitas no link abaixo:</p>
+                    <br>
+                    <p align="left">Você pode acessar as regras do game também pelo link abaixo:</p>
                     <p align="left"><span style="font-size: 14pt"><a style="color: black" href="http://bit.ly/jakagameregras" target="_blank">► VER AS REGRAS</a></span></p>
                     <br>
-                    <br>
-                    <p align="left">É importante deixar claro que esse jogo está na fase inicial, iniciando e testando toda as regras ainda, por isso queremos sua opinião. O que pode ser melhorado?</p>
-                    <p style="font-size: 18pt">Opine por meio deste formulário no google drive, nos ajudará muito:</p>
-                    <p><a style="font-size: 14pt" href="http://bit.ly/jakagameform" target="_blank">► O QUE PRECISA MELHORAR?</a></p>
+                    <p align="left">O jogo já está formado com regras claras e formato de jogo definidos, porém, este site é apenas uma plataforma de testes para o jogo. Nosso objetivo é testar para quem sabe, desenvolver um app e aprimorar o sistema para que possamos oferecer jogos online do JAKA Game. Então estamos em fase inicial ainda, por isso queremos sua opinião. Ajude-nos. O que podemos melhorar no site?</p>
+                    <p align="left" style="font-size: 18pt">Opine por meio deste formulário no google drive, nos ajudará muito:</p>
+                    <p align="left"><a style="font-size: 14pt; color: black" href="http://bit.ly/jakagameform" target="_blank">► O QUE PRECISA MELHORAR?</a></p>
                     <p style="font-size: 14pt">Precisamos do seu cadastro. Nem que seja uma única vez, faça o cadastro para que possamos aprimorar o nosso jogo. É muito importante!</p>
                   </v-card-text>
                   <v-divider></v-divider>
@@ -229,6 +214,8 @@ export default {
 
     brazilIco: {'image': require('@/assets/brazilsflag.svg')},
     usaIco: {'image': require('@/assets/usaflag.svg')},
+
+    instaSets: {'image': require('@/assets/insta.png')},
 
     cartaExemplo1: {'image': require('@/assets/cartas/valetedeouros.png')},
     cartaExemplo2: {'image': require('@/assets/cartas/damadeespadas.png')},
@@ -470,6 +457,11 @@ export default {
     max-height: 10px;
     margin-left: 15px;
     border-radius: 6px;
+  }
+
+  .icones{
+    width: 45px;
+    height: 45px;
   }
 
 </style>
