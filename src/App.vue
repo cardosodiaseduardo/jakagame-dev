@@ -60,40 +60,52 @@
             <tr>
               <th>
                 <v-card style="color: white" color="success" class="mt-2">
+                  <v-card-actions>
+                    <v-spacer></v-spacer>
+                    <v-btn @click="pularLogin()" class="pr-2 elevation-12">Pular Login ►</v-btn>
+                  </v-card-actions>
+                  <v-divider></v-divider>
                   <v-card-title><h2>SEJA BEM-VINDO, PLAYER!</h2></v-card-title>
                   <v-card-text>
                     <p align="left">O jogo <span style="color: green">JAKA Game&copy;  </span> (Red version) é um jogo de baralho comum ao qual alinha estratégia, blefe e uma pitada de sorte também. O objetivo do jogo é formar a palavra <span style="color: black">JAKA</span> com as cartas valetes, ás e reis, e baixá-las na mesa antes de todos os seus oponentes.</p>
                     <p align="left">Para saber mais sobre como jogar, acesse nosso instagram, siga a gente, lá tem dicas de como jogar JAKA em grupo ou contra uma pessoa:</p>
                     <table>
                       <tr>
-                        <th>
-                          <v-img class="mt-2 mb-2 pa-3 icones" :src="instaSets.image"></v-img>
+                        <th align="center">
+                          <v-img style="width: 60px; height: 60px" class="mt-2 mb-2 pa-3 icones" :src="instaSets.image"></v-img>
+                        </th>
+                        <th style="width: 20px">
+
+                        </th>
+                        <th align="center">
+                          <v-img style="width: 42px; height: 42px" class="mt-2 mb-2 pa-3 icones" :src="facebookSets.image"></v-img>
                         </th>
                       </tr>
                       <tr>
                         <th style="color: black">
                           @jaka.game
                         </th>
+                        <th>
+
+                        </th>
+                        <th style="color: black">
+                          @jakathegame
+                        </th>
                       </tr>
                     </table>
                     <br>
                     <br>
                     <p align="left">Você pode acessar as regras do game também pelo link abaixo:</p>
-                    <p align="left"><span style="font-size: 14pt"><a style="color: black" href="http://bit.ly/jakagameregras" target="_blank">► VER AS REGRAS</a></span></p>
+                    <p align="left"><span style="font-size: 14pt"><a style="color: orange" href="http://bit.ly/jakagameregras" target="_blank">► REGRAS</a></span></p>
                     <br>
-                    <p align="left">O jogo já está formado com regras claras e formato de jogo definidos, porém, este site é apenas uma plataforma de testes para o jogo. Nosso objetivo é testar para quem sabe, desenvolver um app e aprimorar o sistema para que possamos oferecer jogos online do JAKA Game. Então estamos em fase inicial ainda, por isso queremos sua opinião. Ajude-nos. O que podemos melhorar no site?</p>
+                    <p align="left">O jogo já está formado com regras claras e formato de jogo definidos, porém, este site é apenas uma plataforma de testes para o jogo. Nosso objetivo é testar para quem sabe, desenvolver um app e aprimorar o sistema para que possamos oferecer jogos online do JAKA Game. Então estamos em fase inicial ainda, por isso queremos sua opinião. Ajude-nos. O que podemos melhorar aqui no site do game?</p>
                     <p align="left" style="font-size: 18pt">Opine por meio deste formulário no google drive, nos ajudará muito:</p>
-                    <p align="left"><a style="font-size: 14pt; color: black" href="http://bit.ly/jakagameform" target="_blank">► O QUE PRECISA MELHORAR?</a></p>
+                    <p align="left"><a style="font-size: 14pt; color: orange" href="http://bit.ly/jakagameform" target="_blank">► O QUE PRECISA MELHORAR?</a></p>
                     <br>
                     <p align="left">Fique por dentro também das novidades da plataforma do jogo, pois lá iremos atualizar possíveis e futuras atualizações pro jogo.</p>
-                    <p align="left"><span style="font-size: 14pt"><a style="color: black" href="http://bit.ly/jakagameanuncios" target="_blank">► NOVIDADES</a></span></p>
+                    <p align="left"><span style="font-size: 14pt"><a style="color: orange" href="http://bit.ly/jakagameanuncios" target="_blank">► NOVIDADES</a></span></p>
 
                   </v-card-text>
-                  <v-divider></v-divider>
-                  <v-card-actions>
-                    <v-spacer></v-spacer>
-                    <v-btn @click="pularLogin()" class="pr-2 elevation-12">Pular Login ►</v-btn>
-                  </v-card-actions>
                 </v-card>
               </th>
             </tr>
@@ -219,6 +231,7 @@ export default {
     usaIco: {'image': require('@/assets/usaflag.svg')},
 
     instaSets: {'image': require('@/assets/insta.png')},
+    facebookSets: {'image': require('@/assets/facebook.png')},
 
     cartaExemplo1: {'image': require('@/assets/cartas/valetedeouros.png')},
     cartaExemplo2: {'image': require('@/assets/cartas/damadeespadas.png')},
